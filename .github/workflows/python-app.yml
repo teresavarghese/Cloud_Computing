@@ -29,4 +29,5 @@ jobs:
         pip install matplotlib numpy pandas scikit-learn 
     - name: Python application 
       run: |
-        python teresav.py
+        python teresav_poly.py
+        python teresav_linear.py
